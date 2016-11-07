@@ -5,75 +5,6 @@
  * @date    2016-11-06 09:27:05
  * @version $Id$
  */
-body ,h1,h2,ul,p,figure{
-	margin: 0;
-	padding: 0;
-}
-
-ul {
-	list-style: outside none none;
-}
-
-a {
-	/*不需要下划线*/
-	text-decoration: none;
-}
-
-.none {
-	display: none;
-}
-
-#header {
-	width: 100%;
-	height: 70px;
-	background-color: #333;
-	min-width: 1280px;
-	box-shadow: 0 2px 10px rgba(0,0,0,0.3);
-	position: relative;
-	z-index: 999;
-}
-
-#header .center {
-	width: 1263px;
-	height: 70px;
-	margin: 0 auto;
-}
-
-#header .logo {
-	width: 240px;
-	height: 70px;
-	background-image: url(../img/logo.png);
-	text-indent: -9999px;
-	float:left;
-}
-
-#header .link {
-	/*5*120px + 50px*/
-	width: 650px;
-	/*height 和 line-height相同就垂直居中了*/
-	height: 70px;
-	line-height: 70px;
-	color: #eee;
-	float: right;
-}
-
-#header .link li {
-	width: 120px;
-	text-align: center;;
-	float: left;
-}
-
-
-#header .link a {
-	color: #eee;
-	/*增大链接点击区域，a 本身是内联，把他变成区块*/
-	display: block;
-}
-
-#header .link a:hover,
-#header .active a {
-	background-color: #000;
-}
 
 #search {
 	width: 100%;
@@ -132,7 +63,7 @@ a {
 
 #tour {
 	width: 1263px;
-	height: 1200px;
+	height: 1120px;
 	/*background-color: #ccc;*/
 	margin: 30px auto;
 	text-align: center;
