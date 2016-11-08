@@ -80,6 +80,10 @@ a {
 #footer {
 	height: 360px;
 	background-color: #222;
+	/*清理浮动，高度自适应*/
+	clear: both;
+	position: relative;
+	top: 20px;
 }
 
 #footer .top {
